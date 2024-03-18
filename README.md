@@ -5,8 +5,8 @@ This repo contains tasked with creating a web application that processes and dis
 ### Setup
 1. Clone the repository
 ```
-git clone <repository_url>
-cd <project_directory>
+[git clone <repository_url>](https://github.com/Ahsanmaqbool/RhombusAIHomeTest.git)
+cd <DataParseApi>
 ```
 2. Create a virtual environment (optional but recommended):
 
