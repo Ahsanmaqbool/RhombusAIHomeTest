@@ -77,6 +77,7 @@ The project will run on port:5173
 │   │   ├── ErrorComponent.jsx
 │   │   ├── Login.jsx
 │   │   ├── ProcessedDataComponent.jsx
+│   │   ├── PopupModal.jsx
 │   │   ├── Profile.jsx
 │   │   ├── RegisterUserComponent.jsx
 │   ├── App.css
@@ -100,8 +101,12 @@ The project will run on port:5173
                      Login/Register        Profile
                                               │
                            ----------------------------------------
-                          │                   │                    │
-                  UploadFileComponent   ErrorComponent  ProcessedDataComponent
+                          │                                        │
+                  UploadFileComponent                         PopupModal
+                                                                   │
+                                                           ------------------
+                                                          │                  │
+                                                   ErrorComponent  ProcessedDataComponent
 
 
 ```
