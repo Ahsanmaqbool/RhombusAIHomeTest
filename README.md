@@ -28,11 +28,13 @@ python manage.py runserver
 ```
 ### Test
 For django user module test use the following command:
+```
 python manage.py test
 ```
-
 ### Endpoint:
 ```http://127.0.0.1:8000/api/docs/```
+
+
 
 ## Rhombus UI
 ## Installation
@@ -47,7 +49,7 @@ npm install
 npm run dev
 ```
 
-The project will run on port:3000
+The project will run on port:5173
 
 ## Usage
 
@@ -105,7 +107,7 @@ The project will run on port:3000
 ```
 
 ## License
-
+```
 [MIT](https://choosealicense.com/licenses/mit/)
 ```
 
