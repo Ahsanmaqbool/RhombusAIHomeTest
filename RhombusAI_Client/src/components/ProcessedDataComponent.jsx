@@ -16,6 +16,8 @@ const Title = styled.h3`
 
 const TableContainer = styled.div`
   overflow-x: auto;
+  overflow-y: auto; /* Make the container vertically scrollable */
+  max-height: 300px; /* Set a maximum height for the container */
 `;
 
 const Table = styled.table`

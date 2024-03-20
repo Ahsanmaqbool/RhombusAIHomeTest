@@ -29,8 +29,13 @@ const AuthContainer = () => {
 
   return (
     <div>
-      {token ? (
-        <Profile token={token} profile={profile} />
+      {token && profile ? (
+        <Profile
+          token={token}
+          setToken={setToken}
+          profile={profile}
+          setProfile={setProfile}
+        />
       ) : (
         <div>
           <ButtonContainer>

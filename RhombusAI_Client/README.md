@@ -10,7 +10,7 @@ npm install
 npm run dev
 ```
 
-The project will run on port:5173
+The project will run on port:3000
 
 ## Usage
 
